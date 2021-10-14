@@ -49,11 +49,6 @@ css: "../../assets/css/revealCustom.css"
 - We'll be doing some math
   - nothing that won't be covered in your math classes already.
 
----
-
-- Whenever possible, I will try to pre-record the theory videos and share them before the weekend.
-  - Hopefully, it will allow you to have time to digest it and have questions ready for the class.
-
 ## Class exercises
 
 In each lesson, we will do some class exercises to understand the concepts.
