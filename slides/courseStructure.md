@@ -12,25 +12,27 @@ css: "../../assets/css/revealCustom.css"
 
 ---
 
-|     Date     | Topic                            |
-| :----------: | -------------------------------- |
-|  20 Oct '20  | Introduction                     |
-|  27 Oct '20  | Conditionals                     |
-|  3 Nov '20   | Loops                            |
-|  10 Nov '20  | Complex loops (while, nested...) |
-| _19 Nov '20_ | Topology Workshop                |
-|  24 Nov '20  | Big in-class exercise            |
+|      Date      | Topic                            |
+| :------------: | -------------------------------- |
+|   13 Oct '21   | Introduction                     |
+|   20 Oct '21   | Conditionals                     |
+|   27 Oct '21   | Loops                            |
+|   3 Nov '21    | Complex loops (while, nested...) |
+| _8/10 Nov '21_ | Topology Workshop                |
+|   17 Nov '21   | Big in-class exercise            |
 
 ---
 
-|     Date     | Topic                          |
-| :----------: | ------------------------------ |
-|  31 Nov '20  | Recursivity and fractals       |
-|  15 Dec '20  | Functions + Christmas exercise |
-| _24 Dec '20_ | Optimization Workshop          |
-|  12 Jan '21  | Projects workshop              |
-|  19 Jan '21  | Projects workshop              |
-|  26 Jan '21  | **FINAL EXAM**                 |
+|     Date     | Topic                    |
+| :----------: | ------------------------ |
+|  24 Nov '21  | Recursivity and fractals |
+|  1 Dec '21   | Functions                |
+|  8 Dec '21   | Functions II             |
+| _15 Dec '21_ | Optimization Workshop    |
+| _22 Dec '21_ | Speckle Interop          |
+|  12 Jan '22  | Dictionaries in Python   |
+|  19 Jan '22  | Projects workshop        |
+|  26 Jan '22  | **FINAL EXAM**           |
 
 # Class structure
 
