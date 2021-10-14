@@ -1,7 +1,7 @@
 ---
 author: MPDA'21
 title: Course structure
-date: October 20, 2020
+date: October 14, 2021
 theme: white
 transition: convex
 highlight: breezedark
@@ -14,25 +14,25 @@ css: "../../assets/css/revealCustom.css"
 
 |      Date      | Topic                            |
 | :------------: | -------------------------------- |
-|   13 Oct '21   | Introduction                     |
-|   20 Oct '21   | Conditionals                     |
-|   27 Oct '21   | Loops                            |
-|   3 Nov '21    | Complex loops (while, nested...) |
-| _8/10 Nov '21_ | Topology Workshop                |
-|   17 Nov '21   | Big in-class exercise            |
+|   14 Oct '21   | Introduction                     |
+|   21 Oct '21   | Conditionals                     |
+|   28 Oct '21   | Loops                            |
+|   4 Nov '21    | Complex loops (while, nested...) |
+| _9/11 Nov '21_ | Topology Workshop                |
+|   18 Nov '21   | Big in-class exercise            |
 
 ---
 
-|     Date     | Topic                    |
-| :----------: | ------------------------ |
-|  24 Nov '21  | Recursivity and fractals |
-|  1 Dec '21   | Functions                |
-|  8 Dec '21   | Functions II             |
-| _15 Dec '21_ | Optimization Workshop    |
-| _22 Dec '21_ | Speckle Interop          |
-|  12 Jan '22  | Dictionaries in Python   |
-|  19 Jan '22  | Projects workshop        |
-|  26 Jan '22  | **FINAL EXAM**           |
+|      Date       | Topic                    |
+| :-------------: | ------------------------ |
+|   25 Nov '21    | Recursivity and fractals |
+|    2 Dec '21    | Functions                |
+|    9 Dec '21    | Functions II             |
+| _14/16 Dec '21_ | Optimization Workshop    |
+|  _23 Dec '21_   | Speckle Interop          |
+|   13 Jan '22    | Dictionaries in Python   |
+|   20 Jan '22    | Projects workshop        |
+|   27 Jan '22    | **FINAL EXAM**           |
 
 # Class structure
 

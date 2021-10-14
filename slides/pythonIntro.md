@@ -1,7 +1,7 @@
 ---
 author: MPDA'21
 title: Python Intro
-date: October 20, 2020
+date: October 14, 2021
 theme: white
 transition: convex
 highlight: breezedark
