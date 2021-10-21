@@ -1,5 +1,5 @@
 ---
-author: MPDA'21
+author: MPDA'22
 title: Python Intro
 date: October 14, 2021
 theme: white

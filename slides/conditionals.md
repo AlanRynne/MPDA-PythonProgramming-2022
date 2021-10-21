@@ -1,7 +1,7 @@
 ---
-author: MPDA'21
+author: MPDA'22
 title: Booleans & Conditionals
-date: October 27, 2020
+date: October 21, 2021
 theme: white
 transition: convex
 highlight: breezedark
