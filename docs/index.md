@@ -11,12 +11,13 @@ permalink: /
 0. [COURSE STRUCTURE](slides/courseStructure/)
 1. **DAY 01** - Python Intro
    1. SLIDE -> [Python Introduction](slides/pythonIntro/)
-   2. GH FILE -> [Day 01 - START](files/PythonIntro-01.ghx)
-   3. GH FILE ->[Day 01 - END](files/PythonIntro-01.ghx)
-
-## Exercises
-
-1. TBD
+   2. GH FILE -> [Day 01 - START](files/Day01-START.ghx)
+   3. GH FILE ->[Day 01 - END](files/Day01-END.ghx)
+2. **Day 02** - Conditional statements
+   1. SLIDE -> [Conditinal Statements](slides/conditionals/)
+   2. GH FILE -> [Day 02 - START](files/Day02-START.ghx)
+   3. GH FILE -> [DAY 02 - END](files/Day02-END.ghx)
+   4. **Homework** -> [DAY 02 - HOMEWORK](files/DAY02-Homework.ghx)
 
 ## Guides
 
