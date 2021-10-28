@@ -18,6 +18,10 @@ permalink: /
    2. GH FILE -> [Day 02 - START](files/Day02-START.ghx)
    3. GH FILE -> [DAY 02 - END](files/Day02-END.ghx)
    4. **Homework** -> [DAY 02 - HOMEWORK](files/DAY02-Homework.ghx)
+3. **Day 03** - Lists and Loops
+   1. SLIDE -> [Lists and Loops](slides/loops/)
+   2. GH FILE -> [Day 03 - END](files/Day03-END.gh)
+   3. GH FILE -> [Day 03 - Homework](files/Day03-Homework.gh)
 
 ## Guides
 
