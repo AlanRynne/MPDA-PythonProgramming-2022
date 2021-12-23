@@ -18,6 +18,18 @@ A function is a block of code which only runs when it is _called_.
 
 ---
 
+We've been using funcions during **the entire course**:
+
+```
+range(3,9)
+math.cos(2*math.pi)
+math.sin(math.pi)
+abs(-1)
+ptA.DistanceTo(ptB)
+interval.ParamterAt(0)
+curve.ClosestPoint(ptA)
+```
+
 You can pass data, known as _parameters_, into a function.
 
 A function _can_ **return data** as a result.
