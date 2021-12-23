@@ -110,60 +110,62 @@
 <section class="slide level2">
 
 <p>We’ve been using funcions during <strong>the entire course</strong>:</p>
-<pre><code>range(3,9)
-math.cos(2*math.pi)
-math.sin(math.pi)
-abs(-1)
-ptA.DistanceTo(ptB)
-interval.ParamterAt(0)
-curve.ClosestPoint(ptA)</code></pre>
-<p>You can pass data, known as <em>parameters</em>, into a function.</p>
-<p>A function <em>can</em> <strong>return data</strong> as a result.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">range</span>(<span class="dv">3</span>,<span class="dv">9</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>math.cos(<span class="dv">2</span><span class="op">*</span>math.pi)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>math.sin(math.pi)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">abs</span>(<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>ptA.DistanceTo(ptB)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>interval.ParamterAt(<span class="dv">0</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>curve.ClosestPoint(ptA)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>cross <span class="op">=</span> rg.Vector3d.CrossProduct(...)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>surf <span class="op">=</span> rg.Surface.CreateByCorners(...)</span></code></pre></div>
 </section>
 <section class="slide level2">
 
-<p>You have been using functions all along the course.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pt <span class="op">=</span> rg.Point3d(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">0</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cross <span class="op">=</span> rg.Vector3d.CrossProduct(rg.Vector3d.ZAxis, rg.Vector3d.YAxis)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>surf <span class="op">=</span> rg.Surface.CreateByCorners(...)</span></code></pre></div>
+<p>You can pass data, known as <em>parameters</em>, into a function.</p>
+<p>A function <em>can</em> <strong>return data</strong> as a result.</p>
 </section>
 <section id="creating-a-function" class="slide level2">
 <h2>Creating a function</h2>
-<p>You can create a function by using the <code>function</code>, followed by the name and the inputs surrounded by parenthesis.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> myFunction():</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Hello from inside myFunction!&quot;</span>)</span></code></pre></div>
+<p>You can create a function by using the <code>def</code> keyword, followed by the <strong>name</strong> and the (optional) <strong>inputs</strong> surrounded by parenthesis.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> myFunction():</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Hello from inside myFunction!&quot;</span>)</span></code></pre></div>
 <p>Inside the indented block you can add any code you wish.</p>
 </section>
 <section class="slide level2">
 
 <p>And use it like this:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>myFunction()</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>myFunction()</span></code></pre></div>
 </section>
 <section class="slide level2">
 
 <p>A function can optionally have <em>input</em> parameters (variables)</p>
 <p>These parameters can be of <strong>any type</strong>.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> addNumbers(a,b):</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    addition <span class="op">=</span> a <span class="op">+</span> b</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(addition)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># And use it placing the values inside the parenthesis</span></span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>addNumbers(<span class="dv">4</span>, <span class="fl">2.3</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> addNumbers(a,b):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    addition <span class="op">=</span> a <span class="op">+</span> b</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(addition)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># And use it placing the values inside the parenthesis</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>addNumbers(<span class="dv">4</span>, <span class="fl">2.3</span>)</span></code></pre></div>
 </section>
 <section class="slide level2">
 
 <p>A function can also <strong>return data</strong></p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> addNumbers(a,b):</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    addition <span class="op">=</span> a <span class="op">+</span> b</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> addition</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> addNumbers(<span class="dv">3</span>,<span class="dv">44</span>)</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(result)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> addNumbers(a,b):</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    addition <span class="op">=</span> a <span class="op">+</span> b</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> addition</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> addNumbers(<span class="dv">3</span>,<span class="dv">44</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(result)</span></code></pre></div>
 <p>The return value can be saved into a variable for later use.</p>
 </section></section>
 <section>
 <section id="why-should-you-use-them" class="title-slide slide level1">
 <h1>Why should you use them?</h1>
+
+</section>
+<section class="slide level2">
+
 <p>Functions are useful in many ways:</p>
 <ul>
 <li>to abstract the logic into understandable pieces.</li>
@@ -178,14 +180,22 @@ curve.ClosestPoint(ptA)</code></pre>
 <li>They each have independent inputs that <strong>can vary</strong></li>
 <li>They each perform a specific operation, and have a descriptive name.</li>
 </ul>
+</section>
+<section class="slide level2">
+
 <p>There’s only one main difference between them:</p>
 <p><strong>A python function can only have one <code>return</code> value</strong></p>
 </section>
 <section class="slide level2">
 
 <h3 id="what-does-having-only-one-return-value-even-mean">What does <em>having only one return value?</em> even mean?</h3>
+</section>
+<section class="slide level2">
+
 <p>It means that the result of any function has to be <strong>a single item</strong> (or no item at all).</p>
 <p>If you need to output more than one item, you can output a <strong>list</strong>/<strong>tupple</strong> or <strong>dictionary</strong> that collects the multiple items you want to send.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> multipleOutput():</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>, <span class="st">&quot;c&quot;</span>]</span></code></pre></div>
 </section></section>
 <section>
 <section id="recursivity" class="title-slide slide level1">
@@ -208,7 +218,7 @@ curve.ClosestPoint(ptA)</code></pre>
 
 <p>In programming, a function is <em>recursive</em> if it <strong>calls itself</strong>.</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> power(num, exp):</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(exp <span class="op">==</span> <span class="dv">1</span>):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span>(exp <span class="op">&gt;=</span> <span class="dv">1</span>):</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> num</span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> num  <span class="op">*</span> power(num, exp <span class="op">-</span> <span class="dv">1</span>)</span></code></pre></div>
 </section>

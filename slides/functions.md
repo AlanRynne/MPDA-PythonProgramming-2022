@@ -20,7 +20,7 @@ A function is a block of code which only runs when it is _called_.
 
 We've been using funcions during **the entire course**:
 
-```
+```python
 range(3,9)
 math.cos(2*math.pi)
 math.sin(math.pi)
@@ -28,25 +28,19 @@ abs(-1)
 ptA.DistanceTo(ptB)
 interval.ParamterAt(0)
 curve.ClosestPoint(ptA)
+cross = rg.Vector3d.CrossProduct(...)
+surf = rg.Surface.CreateByCorners(...)
 ```
+
+---
 
 You can pass data, known as _parameters_, into a function.
 
 A function _can_ **return data** as a result.
 
----
-
-You have been using functions all along the course.
-
-```python
-pt = rg.Point3d(0,0,0)
-cross = rg.Vector3d.CrossProduct(rg.Vector3d.ZAxis, rg.Vector3d.YAxis)
-surf = rg.Surface.CreateByCorners(...)
-```
-
 ## Creating a function
 
-You can create a function by using the `function`, followed by the name and the inputs surrounded by parenthesis.
+You can create a function by using the `def` keyword, followed by the **name** and the (optional) **inputs** surrounded by parenthesis.
 
 ```python
 def myFunction():
@@ -95,6 +89,8 @@ The return value can be saved into a variable for later use.
 
 # Why should you use them?
 
+---
+
 Functions are useful in many ways:
 
 - to abstract the logic into understandable pieces.
@@ -108,6 +104,8 @@ Essentially, a **python function** is the equivalent of a **grasshopper node**:
 - They each have independent inputs that **can vary**
 - They each perform a specific operation, and have a descriptive name.
 
+---
+
 There's only one main difference between them:
 
 **A python function can only have one `return` value**
@@ -116,9 +114,16 @@ There's only one main difference between them:
 
 ### What does _having only one return value?_ even mean?
 
+---
+
 It means that the result of any function has to be **a single item** (or no item at all).
 
 If you need to output more than one item, you can output a **list**/**tupple** or **dictionary** that collects the multiple items you want to send.
+
+```python
+def multipleOutput():
+    return ["a", "b", "c"]
+```
 
 # Recursivity
 
@@ -142,7 +147,7 @@ In programming, a function is _recursive_ if it **calls itself**.
 
 ```python
 def power(num, exp):
-    if(exp == 1):
+    if(exp >= 1):
         return num
     return num  * power(num, exp - 1)
 ```
