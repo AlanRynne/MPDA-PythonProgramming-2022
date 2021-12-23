@@ -22,8 +22,10 @@ permalink: /
    1. SLIDE -> [Lists and Loops](slides/loops/)
    2. GH FILE -> [Day 03 - END](files/Day03-END.gh)
    3. GH FILE -> [Day 03 - Homework](files/Day03-Homework.gh)
-4. **Day 06** - Recursion and fractals!
+4. **Day 07** - Recursion and fractals!
    1. SLIDE -> [Recursion and fractals](slides/recursion-fractals/)
+5. **Day 08** - Functions
+6. 1. SLIDE -> [Functions](slides/functions/)
 
 ## Guides
 
